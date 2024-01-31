@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <div class="container-fluid position-relative">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/images/logojob.png" alt="" width="100px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOW IT WORKS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">POST A JOB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">POST A REQUEST</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="#">REGISTER</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img
+              class="position-absolute boxImage"
+              src="./assets/images/box1.png"
+              alt=""
+              width="150px"
+            />
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- main start -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center z-2">
+          <p class="mainH">
+            Find the <br />
+            best <span>freelance services</span> for <br />
+            any work
+          </p>
+
+          <!-- seatch -->
+
+          <div class="my-2 position-relative">
+            <div class="search-box px-4 py-3 d-flex align-items-center">
+              <div class="w-100 position-relative">
+                <input
+                  class="form-control sInp w-100"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="what you are looking for"
+                />
+                <img class="sIcon" src="./assets/images/sicon.png" alt="" />
+              </div>
+              <button class="btn btn-primary text-nowrap py-3">
+                Find Services
+              </button>
+            </div>
+            <div class="box2"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="">
+            <img
+              class="img-fluid lapimg"
+              src="./assets/images/laptop.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row my-4">
+        <p class="text-center parH">Featured Candidates</p>
+        <p class="subText">
+          Sed ut perspiciatis unde omnis iste natus error sit voluaccusan
+          doloremque laudantium.
+        </p>
+        <div class="my-2 pt-4">
+          <div
+            class="d-flex flex-wrap justify-content-between align-items-center"
+          >
+            <img class="fImg my-2" src="./assets/images/f1.png" alt="" />
+            <img class="fImg my-2" src="./assets/images/f2.png" alt="" />
+            <img class="fImg my-2" src="./assets/images/f3.png" alt="" />
+            <img class="fImg my-2" src="./assets/images/f4.png" alt="" />
+            <img class="fImg my-2" src="./assets/images/f5.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- explore section -->
+
+    <div class="container-fluid my-2 bg-con py-4">
+      <div class="container my-4">
+        <p class="text-center parH">Explore by Category</p>
+        <p class="subText">
+          Sed ut perspiciatis unde omnis iste natus error sit voluaccusan
+          doloremque laudantium.
+        </p>
+        <div class="my-2 row">
+          <div class="col-md-4 my-2">
+            <div class="card p-5 exCard">
+              <img src="./assets/images/e1.png" alt="" width="80px" />
+              <p class="my-2 cardText">Web development</p>
+              <p class="my-2 cardSubT">
+                Sed ut perspiciatis unde omnis iste natus error.
+              </p>
+              <a href="#" class="nav-link my-2 cardLink">4 JOBS</a>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card p-5 exCard">
+              <img src="./assets/images/e2.png" alt="" width="80px" />
+              <p class="my-2 cardText">Edit videos</p>
+              <p class="my-2 cardSubT">
+                Sed ut perspiciatis unde omnis iste natus error.
+              </p>
+              <a href="#" class="nav-link my-2 cardLink">4 JOBS</a>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card p-5 exCard">
+              <img src="./assets/images/e4.png" alt="" width="80px" />
+              <p class="my-2 cardText">Design</p>
+              <p class="my-2 cardSubT">
+                Sed ut perspiciatis unde omnis iste natus error.
+              </p>
+              <a href="#" class="nav-link my-2 cardLink">12 JOBS</a>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card p-5 exCard">
+              <img src="./assets/images/e5.png" alt="" width="80px" />
+              <p class="my-2 cardText">Health</p>
+              <p class="my-2 cardSubT">
+                Sed ut perspiciatis unde omnis iste natus error.
+              </p>
+              <a href="#" class="nav-link my-2 cardLink">6 JOBS</a>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card p-5 exCard">
+              <img src="./assets/images/e6.png" alt="" width="80px" />
+              <p class="my-2 cardText">Digital Markting</p>
+              <p class="my-2 cardSubT">
+                Sed ut perspiciatis unde omnis iste natus error.
+              </p>
+              <a href="#" class="nav-link my-2 cardLink">6 JOBS</a>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card p-5 exCard">
+              <img src="./assets/images/e1.png" alt="" width="80px" />
+              <p class="my-2 cardText">Online cources</p>
+              <p class="my-2 cardSubT">
+                Sed ut perspiciatis unde omnis iste natus error.
+              </p>
+              <a href="#" class="nav-link my-2 cardLink">9 JOBS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- freelance section -->
+    <div class="container-fluid">
+      <div class="container px-md-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mainImg">
+              <img
+                width="100%
+              "
+                src="./assets/images/MainSecImg.png"
+                alt="img"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="textSec py-4 w-75">
+              <div class="headerText">
+                <h3>A whole world of freelance talent at your fingertips</h3>
+                <div class="headerAfter mt-4 mb-5 ms-1"></div>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+                <p>
+                  If you are going to use a passage of Lorem Ipsum, you need to
+                  be sure there isn't anything embarrassing hidden in the middle
+                  of text.
+                </p>
+              </div>
+
+              <div class="footerText mt-2 ms-4">
+                <div class="circle">
+                  <img
+                    width="20%"
+                    src="./assets/images/darkCircle.png"
+                    alt="circle"
+                  />
+                </div>
+                <div class="someText mb-4">
+                  <p>
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form.
+                  </p>
+                </div>
+
+                <div class="footerName pt-4">
+                  <h5>Ranku Rahman</h5>
+                  <h6>Hade Of Idea</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- how  ot works sections -->
+    <div class="container-fluid HowItWorks mt-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="HeadingText d-flex flex-column align-items-center">
+            <h3>How it Works</h3>
+            <p class="w-50 text-center">
+              Sed ut perspiciatis unde omnis iste natus error sit voluaccusan
+              doloremque laudantium.
+            </p>
+            <div class="headAfter"></div>
+          </div>
+          <div class="container px-5 mx-5">
+            <div class="row position-relative">
+              <div class="col-md-4">
+                <div class="cardOne d-flex flex-column align-items-center">
+                  <img src="./assets/images/imgarrow1.png" alt="" />
+                  <h6 class="text-center">Register an Account</h6>
+                </div>
+              </div>
+              <div class="arrowOne">
+                <img src="./assets/images/arrowOne.png" alt="" />
+              </div>
+              <div class="arrowTwo">
+                <img src="./assets/images/ArrowTwo.png" alt="" />
+              </div>
+              <div class="col-md-4">
+                <div class="cardTwo d-flex flex-column align-items-center">
+                  <img src="./assets/images/imgarrow2.png" alt="" />
+                  <h6 class="text-center">Search Your Job</h6>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="cardThree d-flex flex-column align-items-center">
+                  <img src="./assets/images/imgarrow3.png" alt="" />
+                  <h6 class="text-center">Apply For Job</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- view job section -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="text-center">
+          <p class="text-center parH">View Job</p>
+          <p class="subText">
+            Sed ut perspiciatis unde omnis iste natus error sit voluaccusan
+            doloremque laudantium.
+          </p>
+        </div>
+
+        <div class="row mt-3 pt-3">
+          <div class="col-md-4 my-2">
+            <div class="card-bord my-2 py-4">
+              <div class="position-relative">
+                <img class="w-100" src="./assets/images/Layer 1.png" alt="" />
+                <div
+                  class="d-flex position-absolute flex-column rounded-3 justify-content-center price-cart"
+                >
+                  <span class="fw-bold">100.00 USD</span>
+                  <small>Fixed price</small>
+                </div>
+              </div>
+              <div class="px-4 mt-5 fw-bold fs-5">
+                <p>
+                  Web site design (Domaine name + Hosting + SSL free for 1 year)
+                </p>
+
+                <div class="d-flex align-items-center gap-3">
+                  <img
+                    class="card-img"
+                    src="./assets/images/Layer 2.png"
+                    alt=""
+                  />
+                  <div>
+                    <span>Eriwork </span>
+                    <div>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <span class="text-secondary">(5.0) </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card-bord my-2 py-4">
+              <div class="position-relative">
+                <img
+                  class="w-100 px-5"
+                  src="./assets/images/Layer 4.png"
+                  alt=""
+                />
+                <div
+                  class="d-flex position-absolute flex-column rounded-3 justify-content-center price-cart"
+                >
+                  <span class="fw-bold">100.00 USD</span>
+                  <small>Fixed price</small>
+                </div>
+              </div>
+              <div class="px-4 mt-5 fw-bold fs-5">
+                <p>
+                  Web site design (Domaine name + Hosting + SSL free for 1 year)
+                </p>
+
+                <div class="d-flex align-items-center gap-3">
+                  <img
+                    class="card-img"
+                    src="./assets/images/Layer 2.png"
+                    alt=""
+                  />
+                  <div>
+                    <span>Eriwork </span>
+                    <div>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <span class="text-secondary">(5.0) </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-2">
+            <div class="card-bord my-2 py-3">
+              <div class="position-relative">
+                <img
+                  class="w-100 px-4"
+                  src="./assets/images/Layer 5.png"
+                  alt=""
+                />
+                <div
+                  class="d-flex position-absolute flex-column rounded-3 justify-content-center price-cart"
+                >
+                  <span class="fw-bold">100.00 USD</span>
+                  <small>Fixed price</small>
+                </div>
+              </div>
+              <div class="px-4 mt-5 fw-bold fs-5">
+                <p>
+                  Web site design (Domaine name + Hosting + SSL free for 1 year)
+                </p>
+
+                <div class="d-flex align-items-center gap-3">
+                  <img
+                    class="card-img"
+                    src="./assets/images/Layer 2.png"
+                    alt=""
+                  />
+                  <div>
+                    <span>Eriwork </span>
+                    <div>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <i class="fa-solid fs-6 text-warning fa-star"></i>
+                      <span class="text-secondary">(5.0) </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="my-5 px-sm-5 px-0">
+              <h2 class="fs-2 text-white fw-bold mt-3">Joberiss</h2>
+              <p class="text-white fs-6">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="my-5">
+              <h4 class="text-white">Our Company</h4>
+              <div class="d-flex gap-3">
+                <div>
+                  <ul class="text-white">
+                    <li>Home</li>
+                    <li>How it works?</li>
+                    <li>My Account</li>
+                    <li>Post a Job</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="text-white">
+                    <li>Post a Request</li>
+                    <li>Login</li>
+                    <li>Register</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="my-5">
+              <h4 class="text-white">Our Company</h4>
+              <div class="d-flex gap-3">
+                <div>
+                  <ul class="text-white">
+                    <li>Business & Finance</li>
+                    <li>Digital Marketing</li>
+                    <li>Education & Training</li>
+                    <li>Graphics & And Design</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="text-white">
+                    <li>Health</li>
+                    <li>Music & Audio</li>
+                    <li>Video & Animation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- privacy section -->
+
+    <div class="container-fluid py-4 privacy">
+      <div class="container">
+        <p class="text-white text-center">
+          &#169; 2021 Joberiss.com Terms of Service Privacy Policy
+        </p>
+      </div>
+    </div>
+
+    <!-- end navbar -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

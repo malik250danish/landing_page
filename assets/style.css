@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxImage {
+    left: -50px;
+    top: -30px;
+}
+
+.mainH {
+    font-size: 80px;
+    line-height: 70px;
+    text-align: start;
+    font-weight: 700;
+    z-index: 20;
+}
+
+.mainH span {
+    color: #318CE7;
+}
+
+.lapimg {
+    margin-left: -8rem;
+    z-index: 1;
+}
+
+.search-box {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.sInp {
+    border: 0px;
+    box-shadow: none !important;
+}
+
+.sIcon {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+}
+
+.box2 {
+    background: #DBE7F5;
+    height: 110px;
+    width: 100px;
+    border-radius: 15px;
+    position: absolute;
+    left: -60px;
+    top: 0;
+    z-index: -1;
+}
+
+.parH {
+    color: #14212B;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.subText {
+    color: #6B6B6B;
+    text-align: center;
+    position: relative;
+
+}
+
+.subText::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: rgba(49, 140, 231, 1);
+    bottom: -20px;
+    left: 46%;
+}
+
+.fImg {
+    width: 60px;
+    object-fit: cover;
+}
+
+.bg-con {
+    background: rgba(238, 243, 247, 1)
+}
+
+
+.line {
+    width: 70px !important;
+    height: 5px !important;
+    background-color: #487ce7 !important;
+}
+
+.card-bord {
+    border: 1px dashed #979797 !important;
+    border-radius: 20px !important;
+}
+
+.price-cart {
+    right: 50px;
+    bottom: -30px;
+    padding-inline: 20px;
+
+    background-color: #4c53b6 !important;
+    color: #fff;
+    text-align: center;
+}
+
+.card-img {
+    width: 50px;
+    height: 50px;
+}
+
+.card-pic {
+    width: 350px;
+    height: 240px;
+}
+
+/* footer section  */
+.footer {
+    background-color: #487ce7 !important;
+}
+
+/* privacy section */
+.privacy {
+    background-color: #77b5fe !important;
+}
+
+.exCard {
+    border-radius: 20px;
+    transition: 0.2s all;
+    height: 100%;
+}
+
+.exCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: 0.2s all;
+}
+
+.cardText {
+    font-size: 22px;
+    font-weight: 700;
+    color: #14212B;
+}
+
+.cardSubT {
+    color: #939393;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cardLink {
+    color: #77B5FE;
+    font-size: 16px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+@media (min-width: 1200px) {
+    .headerAfter {
+        margin: -2rem;
+        background-color: rebeccapurple;
+    }
+}
+
+.headerAfter,
+.headAfter {
+    position: relative;
+}
+
+.headerAfter::after {
+    position: absolute;
+    top: 0;
+    content: "";
+    background-color: #348ee7;
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.headAfter::after {
+    position: absolute;
+    left: -2rem;
+    content: "";
+    background-color: #348ee7;
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.footerName {
+    border-top: rgba(128, 128, 128, 0.651) dashed 2px;
+}
+
+.HowItWorks {
+    background-color: #eef3f7;
+}
+
+.cardOne img,
+.cardTwo img,
+.cardThree img {
+    width: 200px;
+}
+
+.arrowOne {
+    position: absolute;
+    left: 24%;
+    width: fit-content;
+}
+
+.arrowOne img {
+    width: 200px;
+}
+
+.arrowTwo {
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    width: fit-content;
+}
+
+.arrowTwo img {
+    width: 200px;
+}
+
+@media(max-width:768px) {
+    .boxImage {
+        display: none;
+    }
+
+    .mainH {
+        font-size: 40px;
+    }
+
+    .lapimg {
+        margin-left: 0px;
+    }
+
+    .subText::before {
+        left: 45%;
+    }
+}
+
+@media(max-width:993px) {
+    .arrowOne {
+        display: none;
+
+    }
+
+    .arrowTwo {
+        display: none;
+    }
+}
